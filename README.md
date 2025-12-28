@@ -18,20 +18,21 @@ Durante a graduação, tive contato com fundamentos teóricos e práticos, desen
 
 O repositório está organizado da seguinte forma:
 
-iesp-faculdade/
-├── projetos/
-│   ├── projeto-1/
-│   ├── projeto-2/
-│   └── projeto-n/
-├── disciplinas/
-│   ├── algoritmos/
-│   ├── estrutura-de-dados/
-│   ├── banco-de-dados/
-│   └── inteligencia-artificial/
-├── trabalhos/
-├── exercicios/
-├── configuracoes/
-└── README.md
+- iesp-faculdade/
+  - projetos/
+    - projeto-1/
+    - projeto-2/
+    - projeto-n/
+  - disciplinas/
+    - algoritmos/
+    - estrutura-de-dados/
+    - banco-de-dados/
+    - inteligencia-artificial/
+  - trabalhos/
+  - exercicios/
+  - configuracoes/
+  - README.md
+
 
 
 
