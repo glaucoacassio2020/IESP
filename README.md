@@ -18,7 +18,7 @@ Durante a graduação, tive contato com fundamentos teóricos e práticos, desen
 
 O repositório está organizado da seguinte forma:
 
-- iesp-faculdade/
+- iesp/
   - projetos/
     - projeto-1/
     - projeto-2/
