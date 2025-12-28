@@ -1,0 +1,69 @@
+1)
+mkdir Disciplina_20252
+cd Disciplina_20252
+mkdir Logica_Matematica 
+cd Logica_Matematica 
+mkdir Exercicios Leitura Material_Professor
+cd ..
+mkdir Projeto
+cd Projeto
+mkdir Curto_Prazo Longo_Prazo
+
+2)
+C:\Users\glaucoacassio\Documents\Disciplina_20252\Projeto>
+
+3)
+cls
+
+4)
+help
+
+5)
+help dir
+
+6)
+cd C:\Users\glaucoacassio\Documents\Disciplina_20252
+
+7)
+F7
+
+8)
+tree C:\Users\glaucoacassio\Documents\Disciplina_20252
+
+9)
+tree C:\Users\glaucoacassio\Documents\Disciplina_20252 /f
+
+10) 
+cd C:\Users\glaucoacassio\Documents\Disciplina_20252\Logica_Matematica
+
+11)
+cd C:\Users\glaucoacassio\Documents
+
+12)
+rmdir /s C:\Users\glaucoacassio\Documents\Disciplina_20252\Projeto\Curto_Prazo
+
+13)
+cd C:\Users\glaucoacassio\Documents
+
+14)
+tree C:\Users\glaucoacassio\Documents\Disciplina_20252\Projeto
+
+15)
+rmdir /s /q C:\Users\glaucoacassio\Documents\Disciplina_20252\Projeto
+
+16)
+rmdir /s /q C:\Users\glaucoacassio\Documents\Disciplina_20252
+
+17)
+exit
+
+18)
+Volta para o diretório raiz da unidade atual.	
+
+19)
+Exibe a estrutura de diretórios e arquivos da unidade D:, listando todos os arquivos.
+
+20)
+Exibe a estrutura de diretórios da unidade atual a partir do diretório raiz, mostrando apenas pastas.
+
+

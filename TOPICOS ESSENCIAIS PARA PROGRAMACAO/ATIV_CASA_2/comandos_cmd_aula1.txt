@@ -1,0 +1,44 @@
+Construção de uma estrutura de pastas e arquivos
+
+criando a estrutura de pastas
+mkdir PastaGeral
+mkdir PastaGeral\Pasta1
+mkdir PastaGeral\Pasta1\Subpasta1
+mkdir PastaGeral\Pasta1\Subpasta2
+mkdir PastaGeral\Pasta2
+mkdir PastaGeral\Pasta2\Subpasta1
+mkdir PastaGeral\Pasta2\Subpasta2
+mkdir PastaGeral\Pasta2\Subpasta3
+mkdir PastaGeral\Pasta2\Subpasta4
+
+limpando a tela
+cls
+
+listando a estrutura de árvore
+tree PastaGeral
+tree PastaGeral /F
+
+saindo de uma pasta
+cd..
+
+indo para a raiz da unidade
+cd\
+
+acessando a pasta Subpasta1 de maneira direta 
+cd PastaGeral\Pasta1\Subpasta1
+
+visualizando a ajuda do shell
+help
+
+pedindo ajuda sobre a escrita de um determinado comando
+help tree
+help dir
+help mkdir
+
+exibindo o diretorio de uma determinada pasta
+dir
+dir PastaGeral\Pasta1\Subpasta1
+
+saindo do shell
+exit
+

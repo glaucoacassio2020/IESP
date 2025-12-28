@@ -1,0 +1,29 @@
+1) 
+cd Documents
+mkdir projetoaula
+
+2) 
+cd projetoaula
+
+3) 
+copy con meuscript.bat
+dir \Windows\System32\*.txt
+
+4) 
+dir C:\ > lista.txt
+
+5) 
+tree Documents >> lista.txt
+
+6) 
+dir C:\Windows\System32\rel*.txt
+
+7) 
+cd ..
+
+8) 
+mkdir backupaulaso
+
+9) 
+copy con meubackup.bat
+copy projetoaula\*.* backupaulaso  
