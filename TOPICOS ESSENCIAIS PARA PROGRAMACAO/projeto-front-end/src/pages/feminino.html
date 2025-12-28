@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Confira nossa coleção de roupas femininas com ótimos preços e variedade de estilos.">
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.jpg">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Feminino - MyCloset</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <a href="../../index.html" class="logo"></a>
+
+      <div class="search-bar">
+        <input type="search" placeholder="Buscar produtos..." aria-label="Buscar produtos">
+        <button type="submit" aria-label="Pesquisar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="user-actions">
+        <a href="login.html" class="login-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="22" height="22">
+            <circle cx="12" cy="7" r="4"></circle>
+            <path d="M5.5 21a8.38 8.38 0 0 1 13 0"></path>
+          </svg>
+          <span>Entrar</span>
+        </a>
+
+        <a href="#" class="cart-btn" aria-label="Carrinho de compras">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="22" height="22">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <nav>
+      <a href="../../index.html">Início</a>
+      <a href="outlet.html">Outlet</a>
+      <a href="feminino.html" class="active">Feminino</a>
+      <a href="masculino.html">Masculino</a>
+      <a href="infantil.html">Infantil</a>
+      <a href="sport.html">Sport</a>
+      <a href="calcados.html">Calçados</a>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <div class="women-page">
+      <div class="women-header">
+        <h1>Feminino</h1>
+        <p>Roupas, acessórios e novidades para o público feminino</p>
+      </div>
+
+      <div class="women-layout">
+        <aside class="women-sidebar">
+          <form class="filters-form">
+            <h2 class="filters-title">Filtros</h2>
+
+            <!-- Categoria -->
+            <fieldset class="filter-group">
+              <legend class="filter-legend">Categoria</legend>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="dress">
+                <span>Vestido</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="shirt">
+                <span>Camisa Social</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="jacket">
+                <span>Jaqueta</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="hoodie">
+                <span>Moletom</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="skirt">
+                <span>Saia</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="pants">
+                <span>Calça</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="socks">
+                <span>Meias</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="category" value="sport">
+                <span>Esportivo</span>
+              </label>
+            </fieldset>
+
+            <!-- Marcas -->
+            <fieldset class="filter-group">
+              <legend class="filter-legend">Marcas</legend>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="brand" value="calvin-klein">
+                <span>Calvin Klein</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="brand" value="puma">
+                <span>Puma</span>
+              </label>
+              <label class="filter-checkbox">
+                <input type="checkbox" name="brand" value="pool">
+                <span>Pool</span>
+              </label>
+            </fieldset>
+
+            <!-- Tamanho -->
+            <fieldset class="filter-group">
+              <legend class="filter-legend">Tamanho</legend>
+              <div class="filter-range">
+                <input type="number" placeholder="Mín" min="20" max="48" class="range-input" aria-label="Tamanho mínimo">
+                <span class="range-dash">–</span>
+                <input type="number" placeholder="Máx" min="20" max="48" class="range-input" aria-label="Tamanho máximo">
+              </div>
+            </fieldset>
+
+            <!-- Faixa de Preço -->
+            <fieldset class="filter-group">
+              <legend class="filter-legend">Faixa de Preço</legend>
+              <div class="filter-range">
+                <input type="number" placeholder="Mín" min="20" max="48" class="range-input" aria-label="Preço mínimo">
+                <span class="range-dash">–</span>
+                <input type="number" placeholder="Máx" min="20" max="48" class="range-input" aria-label="Preço máximo">
+              </div>
+            </fieldset>
+
+            <!-- Ordenar -->
+            <fieldset class="filter-group">
+              <legend class="filter-legend">Ordenar</legend>
+              <select class="filter-select" aria-label="Ordenar produtos">
+                <option value="relevance">Relevância</option>
+                <option value="lower">Menor preço</option>
+                <option value="higher">Maior preço</option>
+              </select>
+            </fieldset>
+
+            <!-- Botões de Ação -->
+            <div class="filter-actions">
+              <button type="submit" class="filter-btn apply-btn">Aplicar Filtros</button>
+              <button type="reset" class="filter-btn clear-btn">Limpar</button>
+            </div>
+          </form>
+        </aside>
+
+        <section class="women-main">
+          <div class="women-grid">
+            <!-- Produto 1 -->
+            <article class="product-item">
+              <div class="product-img-wrapper">
+                <img src="../img/produtos/feminino/saia-midi-evase-jade-em-viscolinho-cinto-bege-claro-mescla.jpg" alt="Saia midi evasê Jade em viscolinho com cinto - Bege Claro Mescla" class="product-img">
+                <button class="heart-btn" data-product-id="1" aria-label="Adicionar aos favoritos">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Saia midi evasê Jade em viscolinho com cinto - Bege Claro Mescla</h3>
+                <div class="product-prices">
+                  <span class="product-price">R$ 139,99</span>
+                  <span class="original-price">de R$ 189,99</span>
+                </div>
+                <div class="product-btns">
+                  <a href="#" class="product-detail-link">Ver Detalhes</a>
+                  <button class="product-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Produto 2 -->
+            <article class="product-item">
+              <div class="product-img-wrapper">
+                <img src="../img/produtos/feminino/vestido-longo-floral-ponto-cruz-frente-unica-multicor.jpg" alt="Vestido longo floral ponto cruz frente única - multicor" class="product-img">
+                <button class="heart-btn" data-product-id="2" aria-label="Adicionar aos favoritos">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Vestido longo floral ponto cruz frente única - multicor</h3>
+                <div class="product-prices">
+                  <span class="product-price">R$ 219,99</span>
+                  <span class="original-price">de R$ 279,99</span>
+                </div>
+                <div class="product-btns">
+                  <a href="#" class="product-detail-link">Ver Detalhes</a>
+                  <button class="product-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Produto 3 -->
+            <article class="product-item">
+              <div class="product-img-wrapper">
+                <img src="../img/produtos/feminino/calca-legging-poliamida-cinza-escuro-mescla-bodywork.jpg" alt="Calça legging de poliamida - Cinza Escuro Mescla | BodyWork" class="product-img">
+                <button class="heart-btn" data-product-id="3" aria-label="Adicionar aos favoritos">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="product-info">
+                <h3 class="product-title">Calça legging de poliamida - Cinza Escuro Mescla | BodyWork</h3>
+                <div class="product-prices">
+                  <span class="product-price">R$ 55,99</span>
+                  <span class="original-price">de R$ 99,99</span>
+                </div>
+                <div class="product-btns">
+                  <a href="#" class="product-detail-link">Ver Detalhes</a>
+                  <button class="product-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-column">
+        <h3>Atendimento</h3>
+        <ul>
+          <li><a href="devolucao.html">Devolução</a></li>
+          <li><a href="reparo.html">Reparo</a></li>
+          <li><a href="privacidade.html">Privacidade</a></li>
+          <li><a href="denuncia.html">Denúncia</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Serviços</h3>
+        <ul>
+          <li><a href="cartao-presente.html">Cartão Presente</a></li>
+          <li><a href="entrega.html">Entrega</a></li>
+          <li><a href="formas-pagamento.html">Formas de Pagamento</a></li>
+          <li><a href="cupons-desconto.html">Cupons de Desconto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Privacidade</h3>
+        <ul>
+          <li><a href="aviso-privacidade.html">Aviso de Privacidade</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="minha-privacidade.html">Minha Privacidade</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column social-column">
+        <h3>Redes Sociais</h3>
+        <div class="social-icons">
+          <a href="#" onclick="event.preventDefault()" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.25 2H21l-6.56 7.52L22 22h-6.99l-4.37-5.72L5.9 22H3l7.14-8.18L2 2h7.12l3.91 5.23L18.25 2zM8.57 4l8.86 12h-2.28L6.29 4h2.28z"/>
+            </svg>
+          </a>
+
+          <a href="#" onclick="event.preventDefault()" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm4.5-3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"/>
+            </svg>
+          </a>
+
+          <a href="#" onclick="event.preventDefault()" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2a10 10 0 1 0 2.1 19.8v-7h-2.3v-3h2.3v-2.2c0-2.3 1.4-3.6 3.4-3.6.7 0 1.5.1 2.1.2v2.3h-1.4c-1.1 0-1.3.6-1.3 1.3V12h2.7l-.4 3h-2.3v7A10 10 0 0 0 12 2z"/>
+            </svg>
+          </a>
+
+          <a href="https://wa.me/5583991593397" onclick="event.preventDefault()" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2a10 10 0 0 0-8.8 14.7L2 22l5.5-1.8A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4-.9l-.4-.2-2.6.8.9-2.5-.2-.4A8 8 0 1 1 12 20zm4-6.7c-.2-.1-1.1-.6-1.3-.7s-.3-.1-.5.1-.5.6-.6.7-.3.2-.5.1-1-.4-1.7-1.1-1.1-1.5-1.2-1.7 0-.4.1-.5l.3-.5c.1-.2.2-.3.2-.5s0-.3 0-.4-.5-1.4-.7-1.9-.4-.5-.6-.5h-.5c-.2 0-.4.1-.6.3s-.7.8-.7 1.9a6.5 6.5 0 0 0 1.8 4.6c1.9 2 3.9 2.7 4.4 2.9h.4c.2 0 .4 0 .6-.2s1-.5 1.2-.7.3-.4.4-.6 0-.3 0-.4-.2-.2-.4-.3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2025 MyCloset. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="../js/favoritos.js"></script>
+  <script src="../js/fashion-ai.js" defer></script>
+</body>
+</html>
