@@ -1,0 +1,147 @@
+/* Corpo da página */
+body {
+    color: white;
+    background-color: rgb(55, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    padding: 20px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+/* Links */
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover {
+    color: green;
+}
+
+/* Navegação */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+/* Imagens */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin: 20px 0;
+}
+
+/* Formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: -8px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #4a2a2a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid green;
+    outline-offset: 2px;
+}
+
+/* Botão simples da página contato */
+button,
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #00cc66;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid green;
+}
+
+footer a {
+    margin: 0 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Utilitários */
+.center {
+    text-align: center;
+}
+
+/* Texto destacado */
+strong {
+    color: #00ff88;
+    font-weight: bold;
+}
